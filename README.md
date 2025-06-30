@@ -8,7 +8,7 @@ A responsive, modern task manager web application built with **React**, **Vite**
 
 - 🔄 Fetches user data from JSONPlaceholder API
 - 🔍 Real-time search functionality
-- 📄 Paginated list of users
+- 📄 Paginated list of posts
 - 🧱 Reusable UI components (Button, Card, Navbar, Footer)
 - 🎨 Fully responsive design using Tailwind CSS
 - 🌐 Routing with React Router DOM
@@ -20,15 +20,20 @@ A responsive, modern task manager web application built with **React**, **Vite**
 
 src/
 ├── components/ # Reusable UI components
+
 │ ├── Button.jsx
+
 │ ├── Card.jsx
+
 │ ├── Footer.jsx
-│ ├── Layout.jsx
+│ 
 │ └── Navbar.jsx
 ├── pages/ # Main app pages
-│ ├── About.jsx
+│ 
 │ ├── Home.jsx
-│ └── Users.jsx
+
+│ └── Posts.jsx
+
 ├── App.jsx # Main app component with routing
 ├── main.jsx # App entry point
 └── index.css # Tailwind CSS base styles
@@ -59,18 +64,14 @@ JSONPlaceholder — Fake REST API for demo/testing
 🧪 Example Screens
 ✅ Home page with counter and task message
 
-✅ Users page with real-time search and pagination
 
-✅ Reusable buttons for different actions
-
-✅ Dark mode support (optional setup)
+✅ Reusable buttons for different action
 
 📌 Upcoming Improvements
 ✅ Infinite scroll for long lists
 
-⌛ Task creation and management
 
-⌛ Authentication support (e.g., Firebase)
+⌛ Authentication support
 
 ⌛ Local storage or backend integration
 
@@ -87,6 +88,7 @@ JSONPlaceholder — Fake REST API for demo/testing
 
 
 👩‍💻 Author
+
 Susan Ngesa
 Student at Power Learn Project
 GitHub https://github.com/Susan12-n
